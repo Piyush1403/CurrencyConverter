@@ -1,10 +1,10 @@
+var curr1, curr2;
 
-
-function conversion{
-    var from = document.getElementById("value").value,
-    var curr1 = document.getElementById("from").value,
-    var curr2 = document.getElementById("to").value,
-    ans
+function conversion(){
+    var from = document.getElementById("value").value;
+    var curr1 = document.getElementById("from").value;
+    var curr2 = document.getElementById("to").value;
+    var ans;
 
 if (curr1 === "INR" && curr2 === "INR2") ans = from;
 if (curr1 === "INR" && curr2 === "USD2") ans = from*0.016;
