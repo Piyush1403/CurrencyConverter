@@ -13,15 +13,15 @@ Currency Converter
 <hr><br>
 <form>
 Convert &nbsp
-<input type="text"  placeholder="0">
-<select name="from">
+<input type="text"  placeholder="0" id="value">
+<select name="from" id="from">
 <option value = "INR"> INR </option>
 <option value = "USD"> USD </option></select> &nbsp to &nbsp
-<input type="text"  placeholder="0">
-<select name="to">
+<input type="text"  placeholder="0" id="answer">
+<select name="to" id="to">
 <option value = "USD2"> USD </option>
 <option value = "INR2"> INR </option></select><br><br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="button" name="convert" value="Convert">
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="button" onclick="conversion()" value="Convert">
 </form>
 <script src="currency_converter.js"> </script>
 </body>
